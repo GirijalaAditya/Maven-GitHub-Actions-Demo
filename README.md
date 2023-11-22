@@ -29,6 +29,3 @@ ARG version
 COPY --from=build /app/target/${artifact_id}.war /usr/local/tomcat/webapps
 EXPOSE 8080
 ```
-
-### Original Author
-- Unknown as I have cloned this repository long back and updating/using ever since. All credits to the original author. If you are the original author, kindly reach out to me @devopsmadeeasy@outlook.com If you are concerned about using the source.
